@@ -1,11 +1,12 @@
 import './App.css'
+import { Home } from './pages/Home';
+import { TopBar } from './components/HeaderComponent/TopBar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      
+      <Home/>
     </>
   )
 }
