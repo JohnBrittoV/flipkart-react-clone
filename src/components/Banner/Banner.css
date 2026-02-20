@@ -1,0 +1,11 @@
+.banner-container{
+    width: 92%;
+    margin:15px;
+}
+
+.banner-image{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
