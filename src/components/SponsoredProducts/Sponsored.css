@@ -1,0 +1,29 @@
+.sponsored-container{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.sponsored-head{
+   margin: 15px 15px 15px;
+}
+
+.sp-product-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.sp-product-card{
+    display: flex;
+}
+
+.sp-image-wrapper{
+    position: relative;
+}
+
+.sp-image-wrapper img{
+    width: 100%;
+    display: block;
+}
+

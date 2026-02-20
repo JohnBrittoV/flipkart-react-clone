@@ -41,16 +41,17 @@ const products = [
     },
     {
         id:3,
-        title: "vivo V60 (Elite Purple, 256 GB)",
-        price: 33999,
-        offer: 36999,
+        title: "OPPO F27 Pro+ (Midnight Navy, 128 GB)",
+        price: 32999,
+        offer: null,
         rating: 4.4,
         image: {
-                mobile: item3mob,
-                tablet: item3tab,
-                desktop: item3desk
+            mobile: item5mob,
+            tablet: item5tab,
+            desktop: item5desk
         }
     },
+    
     {
         id:4,
         title: "Samsung Metro 313 White",
@@ -65,16 +66,17 @@ const products = [
     },
     {
         id:5,
-        title: "OPPO F27 Pro+ (Midnight Navy, 128 GB)",
-        price: 32999,
-        offer: null,
+        title: "vivo V60 (Elite Purple, 256 GB)",
+        price: 33999,
+        offer: 36999,
         rating: 4.4,
         image: {
-            mobile: item5mob,
-            tablet: item5tab,
-            desktop: item5desk
+                mobile: item3mob,
+                tablet: item3tab,
+                desktop: item3desk
         }
     },
+    
     {
         id:6,
         title: "realme Narzo 80 Lite 5G (Onyx Black, 128Gb)",

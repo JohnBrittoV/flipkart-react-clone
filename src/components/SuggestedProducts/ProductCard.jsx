@@ -4,7 +4,16 @@ export const ProductCard = ({product}) => {
    return(
     <div className="sugg-product-card">
         <div className="sugg-img-wrapper">
-            <img src={image.tablet} alt={title} loading="lazy"/>
+            <picture>
+                <source
+                    media="(min-width: 1024px)"
+                    srcSet={image.desktop}/>
+                <source
+                    media="(min-width: 768px)"
+                    srcSet={image.tablet}/>
+
+                <img src={image.mobile} alt={title} loading="lazy"/>
+            </picture>
 
             {rating && (           
                 <div className="sugg-rating-badge">

@@ -2,6 +2,7 @@ import { Header } from '../components/HeaderComponent/Header';
 import { Carousel } from '../components/Carousel/Carousel';
 import { Banner } from '../components/Banner/Banner';
 import { SuggestedProducts } from '../components/SuggestedProducts/SuggestedProducts'
+import { SponsoredProducts } from '../components/SponsoredProducts/SponsoredProducts';
 
 export const Home = () => {
     return(
@@ -10,6 +11,7 @@ export const Home = () => {
             <Carousel/>
             <Banner/>
             <SuggestedProducts/>
+            <SponsoredProducts/>
         </div>
     )
 }
