@@ -24,15 +24,15 @@ export const CategoryNav = () => {
         {id:1,  label: "Fashion", icon: fashionIcon},
         {id:2,  label: "Mobiles", icon: mobileIcon},
         {id:3,  label: "Beauty", icon: beautyIcon},
-        {id:4,  label: "Electroni..", icon: electronicIcon},
+        {id:4,  label: "Electronics", icon: electronicIcon},
         {id:5,  label: "Home", icon: homeIcon},
-        {id:6,  label: "Applianc..", icon: tvIcon},
+        {id:6,  label: "Appliances", icon: tvIcon},
         {id:7,  label: "Toys", icon: toyIcon},
         {id:8,  label: "Food", icon: foodIcon},
-        {id:9, label: "Auto Acce..", icon: autoIcon},
+        {id:9, label: "Automobile", icon: autoIcon},
         {id:10, label: "2 Wheelers", icon: twoweelIcon},
-        {id:11, label: "Sports &..", icon: sportsIcon},
-        {id:12, label: "Books &..", icon: booksIcon},
+        {id:11, label: "Sports", icon: sportsIcon},
+        {id:12, label: "Books ", icon: booksIcon},
         {id:13, label: "Furniture", icon: furnitureIcon}
     ];
     

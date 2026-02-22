@@ -5,6 +5,8 @@ import { SponsoredProducts } from '../components/SponsoredProducts/SponsoredProd
 import { ProductGrid } from '../components/SuggestedProducts/ProductGrid';
 import { products } from '../data/suggestedProducts';
 import { reCommendedProducts } from '../data/recommandedProducts';
+import { Offers } from '../components/OfferComponent/Offers';
+import { offerProducts, offerItems } from '../data/offerProducts';
 
 
 export const Home = () => {
@@ -13,13 +15,12 @@ export const Home = () => {
             <Header/>
             <Carousel/>
             <Banner/>
-            <ProductGrid 
-                title= "Suggested For You" 
-                products={products}/>
+            <ProductGrid title= "Suggested For You" products={products} setview="smartphones"/>
             <SponsoredProducts/>
-            <ProductGrid
-                title="Recommeded For You"
-                products={reCommendedProducts}/>
+            <ProductGrid title="Recommeded For You" products={reCommendedProducts} setveiw="earbuds"/>
+            
+            <Offers title="Shop for Smart Watches" products={offerProducts} bgcolor="d5e7f5"/>
+            <Offers title="Widest Collection" products={offerItems} bgcolor="#d8f2e8"/>
         </div>
     )
 }

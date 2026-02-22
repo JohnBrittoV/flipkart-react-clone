@@ -1,0 +1,79 @@
+.offer-container{
+    background-color: #d5e7f5;
+    padding: 20px 12px;
+    border-radius: 20px;
+    margin: 12px 16px;
+}
+
+.offer-head{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.offer-title{
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.01px;
+    line-height: 24px;
+    color: #000;
+}
+
+.offer-view{
+    background-color: #000;
+    width: 40px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.offer-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 8px;
+    column-gap: 10px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 8px;
+}
+
+.offer-card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+}
+
+.offer-img-wrapper{
+    position: relative;
+}
+
+.offer-img-wrapper img{
+    width: 100%;
+    display: block;
+}
+
+.offer-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-tag{
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    color: #000;
+}
+
+.offer-item-title{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    line-height: 20px;
+}
