@@ -1,7 +1,15 @@
+import { ProductPageHeader } from '../components/ProductListLayout/ProductPageHeader';
+import { ProductList } from '../components/ProductListLayout/ProductList';
+import '../components/ProductListLayout/layout.css';
+ 
 export const BudsList = () => {
     return(
-         <div style={{margin:"10px", fontSize:"18px", display:"flex", justifyContent:"center"}}>
-           <p style={{color: "black"}}>Ear Buds List</p> 
+        <div>
+            <div className="layout-head">
+                <ProductPageHeader/>
+            </div>
+            
+            <ProductForNew/>
         </div>
     )
 }

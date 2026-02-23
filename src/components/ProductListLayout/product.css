@@ -1,0 +1,146 @@
+.mproduct-card{
+    display: flex;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    background: #fff;
+    color: #000;
+}
+
+.mproduct-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mproduct-image{
+    width: 110px;
+    height: auto;
+}
+
+.mproduct-details{
+    margin-left: 15px;
+    flex: 1;
+}
+
+.mproduct-title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    overflow: hidden;
+}
+
+.mrating-row{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.mrating-stars{
+    display: flex;
+    color: green;
+    padding: 5px 0;
+}
+
+.stars-icon{
+    transform: scale(1.3);
+    display:flex;
+    height: 24px;
+    margin-left: 4px;
+}
+
+.mrating-count{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #7d7f83;
+    margin-left: 4px;
+    padding-bottom: 2px;
+}
+
+.massured{
+    display: flex;
+    width: 60px;
+    height: 16px;
+    margin: auto;
+    object-fit: contain;
+}
+
+.price-row{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.price-percentage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+    color: rgb(0, 140, 0);
+}
+
+.original-price{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+    color: #717478;
+    text-decoration-line: line-through;
+}
+
+.final-price{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+    color: #000;
+}
+
+.bank-offer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3px
+}
+
+.wow-img{
+    width: 38px;
+    display: inline-flex;
+    margin-right: 2px;
+    align-self: center;
+}
+
+.bank-price{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(22, 66, 185);
+    line-height: 24px;
+    margin-left: 4px;
+}
+
+.bank-offer-text{
+    display: flex;
+    align-self: center;
+    font-size: 12px;
+    color: rgb(22, 66, 185);
+    line-height: 15px;
+    margin-left: 4px;
+}
+
+.exchange{
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.warranty{
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}

@@ -1,7 +1,15 @@
+import { ProductPageHeader } from '../components/ProductListLayout/ProductPageHeader';
+import { ProductList } from '../components/ProductListLayout/ProductList';
+import '../components/ProductListLayout/layout.css';
+
 export const SmartPhoneList = () => {
     return(
-        <div style={{margin:"10px", fontSize:"18px", display:"flex", justifyContent:"center"}}>
-           <p style={{color: "black"}}>Smart Phone List</p> 
+        <div>
+            <div className="layout-head">
+                <ProductPageHeader/>
+            </div>
+                
+                <ProductList/>
         </div>
     )
 }
