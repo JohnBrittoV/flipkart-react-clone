@@ -11,6 +11,7 @@ export const Header = () => {
                     <TopBar/>
                     <SearchSection/>
                 </div>
+                
                     <CategoryNav/>
             </header>
         </div>

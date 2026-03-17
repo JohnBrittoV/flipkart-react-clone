@@ -9,7 +9,7 @@ export const BudsList = () => {
                 <ProductPageHeader/>
             </div>
             
-            <ProductForNew/>
+            {/* <ProductForNew/> */}
         </div>
     )
 }

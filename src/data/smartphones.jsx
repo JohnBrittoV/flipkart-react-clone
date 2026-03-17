@@ -22,7 +22,9 @@ import item21 from '../assets/smartphones/21.webp';
 import item22 from '../assets/smartphones/22.webp';
 import item23 from '../assets/smartphones/23.webp';
 import item24 from '../assets/smartphones/24.webp';
+import item25 from '../assets/smartphones/24.webp';
 import item26 from '../assets/smartphones/26.webp';
+import item27 from '../assets/smartphones/26.webp';
 import item28 from '../assets/smartphones/28.webp';
 import item29 from '../assets/smartphones/29.webp';
 import item30 from '../assets/smartphones/30.webp';
@@ -35,14 +37,17 @@ import item36 from '../assets/smartphones/36.webp';
 import item37 from '../assets/smartphones/37.webp';
 import item38 from '../assets/smartphones/38.webp';
 import item39 from '../assets/smartphones/39.webp';
+import item40 from '../assets/smartphones/39.webp';
 
 export const smartphones = [
+  
   {
     id: 1,
     brand: "AI+",
     title: "Ai+ Nova 5G (Pink, 128 GB)",
-    rating: 4.3,
+    rating: 3.3,
     ratingCount: 4944,
+    ratingSlab: '3★ & above',
     assured: false,
     discount: 23,
     originalPrice: 12999,
@@ -55,16 +60,24 @@ export const smartphones = [
     relevanceScore: 78,
     popularityScore: 65,
     trendingScore: 70,
-    salesRank: 18
+    salesRank: 18,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   },
   {
     id: 2,
     brand: "AI+",
     title: "Ai+ Pulse 1 (Black, 64 GB)",
-    rating: 4.2,
+    rating: 3.0,
     ratingCount: 45319,
+    ratingSlab: '3★ & above',
     assured: false,
-    discount: 6,
+    discount: 16,
     originalPrice: 7999,
     price: 7499,
     bankPrice: 7124,
@@ -75,7 +88,14 @@ export const smartphones = [
     relevanceScore: 72,
     popularityScore: 82,
     trendingScore: 75,
-    salesRank: 14
+    salesRank: 14,
+    network: '4G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Above',
+    storage: '64 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -83,6 +103,7 @@ export const smartphones = [
     brand: "Apple",
     title: "Apple iPhone 13 (Starlight, 128 GB)",
     rating: 4.6,
+    ratingSlab: '4★ & above',
     ratingCount: 295197,
     assured: false,
     discount: 0,
@@ -96,13 +117,21 @@ export const smartphones = [
     relevanceScore: 92,
     popularityScore: 98,
     trendingScore: 85,
-    salesRank: 3
+    salesRank: 3,
+    network: '5G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'Apple',
+    os: 'iOS',
+    battery: '3240 mAh'
   },
   {
     id: 4,
     brand: "Apple",
     title: "Apple iPhone 15 (Black, 128 GB)",
     rating: 4.6,
+    ratingSlab: '4★ & above',
     ratingCount: 272596,
     assured: true,
     discount: 8,
@@ -116,7 +145,14 @@ export const smartphones = [
     relevanceScore: 95,
     popularityScore: 96,
     trendingScore: 90,
-    salesRank: 2
+    salesRank: 2,
+    network: '5G',
+    ram: '6 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'Apple',
+    os: 'iOS',
+    battery: '3349 mAh'
   },
   {
     id: 5,
@@ -124,6 +160,7 @@ export const smartphones = [
     title: "Apple iPhone 15 (Pink, 128 GB)",
     rating: 4.6,
     ratingCount: 272596,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 8,
     originalPrice: 59900,
@@ -136,7 +173,14 @@ export const smartphones = [
     relevanceScore: 94,
     popularityScore: 96,
     trendingScore: 88,
-    salesRank: 4
+    salesRank: 4,
+    network: '5G',
+    ram: '6 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'Apple',
+    os: 'iOS',
+    battery: '3349 mAh'
   },
   {
     id: 6,
@@ -144,8 +188,9 @@ export const smartphones = [
     title: "Apple iPhone 16 (Ultramarine, 128 GB)",
     rating: 4.7,
     ratingCount: 210816,
+    ratingSlab: '4★ & above',
     assured: true,
-    discount: 7,
+    discount: 27,
     originalPrice: 69900,
     price: 64900,
     bankPrice: 60467,
@@ -156,15 +201,23 @@ export const smartphones = [
     relevanceScore: 98,
     popularityScore: 94,
     trendingScore: 96,
-    salesRank: 1
+    salesRank: 1,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'Apple',
+    os: 'iOS',
+    battery: '3500 mAh'
   },
 
   {
     id: 7,
     brand: "Google",
     title: "Google Pixel 6a (Sage, 128 GB)",
-    rating: 4.5,
+    rating: 3.5,
     ratingCount: 76093,
+    ratingSlab: '3★ & above',
     assured: true,
     discount: 40,
     originalPrice: 43999,
@@ -177,7 +230,14 @@ export const smartphones = [
     relevanceScore: 88,
     popularityScore: 84,
     trendingScore: 80,
-    salesRank: 8
+    salesRank: 8,
+    network: '5G',
+    ram: '6 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'Qualcomm',
+    os: 'Android',
+    battery: '5000 mAh'
   },
   {
     id: 8,
@@ -185,6 +245,7 @@ export const smartphones = [
     title: "Google Pixel 9A (Obsidian, 256 GB)",
     rating: 4.6,
     ratingCount: 7608,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 20,
     originalPrice: 49999,
@@ -197,17 +258,25 @@ export const smartphones = [
     relevanceScore: 90,
     popularityScore: 70,
     trendingScore: 86,
-    salesRank: 11
+    salesRank: 11,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '256 GB',
+    processor: 'Snapdragon',
+    os: 'Android',
+    battery: '5100 mAh'
   },
 
   {
     id: 9,
     brand: "Motorola",
     title: "Motorola Edge 60 Fusion 5G (Pantone Amazonite, 128 GB)",
-    rating: 4.4,
+    rating: 3.4,
     ratingCount: 125130,
+    ratingSlab: '3★ & above',
     assured: false,
-    discount: 20,
+    discount: 30,
     originalPrice: 24999,
     price: 19999,
     bankPrice: 18999,
@@ -218,15 +287,23 @@ export const smartphones = [
     relevanceScore: 85,
     popularityScore: 88,
     trendingScore: 82,
-    salesRank: 7
+    salesRank: 7,
+    network: '4G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Below',
+    storage: '64 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '6000 mAh'
   },
 
   {
     id: 10,
     brand: "OnePlus",
     title: "OnePlus Nord CE5 5G (Black Infinity, 128 GB)",
-    rating: 4.4,
+    rating: 3.4,
     ratingCount: 8554,
+    ratingSlab: '3★ & above',
     assured: false,
     discount: 12,
     originalPrice: 28999,
@@ -239,7 +316,14 @@ export const smartphones = [
     relevanceScore: 84,
     popularityScore: 72,
     trendingScore: 78,
-    salesRank: 12
+    salesRank: 12,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'Exynos',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -248,6 +332,7 @@ export const smartphones = [
     title: "OPPO Reno 13 5G (Luminous Blue, 128 GB)",
     rating: 4.5,
     ratingCount: 508,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 29,
     originalPrice: 41999,
@@ -260,15 +345,23 @@ export const smartphones = [
     relevanceScore: 80,
     popularityScore: 60,
     trendingScore: 74,
-    salesRank: 20
+    salesRank: 20,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5600 mAh'
   },
 
   {
     id: 12,
     brand: "POCO",
     title: "POCO C75 5G (Aqua Bliss, 64 GB)",
-    rating: 4.3,
+    rating: 3.3,
     ratingCount: 156248,
+    ratingSlab: '3★ & above',
     assured: false,
     discount: 22,
     originalPrice: 10999,
@@ -281,17 +374,25 @@ export const smartphones = [
     relevanceScore: 83,
     popularityScore: 92,
     trendingScore: 88,
-    salesRank: 5
+    salesRank: 5,
+    network: '4G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Below',
+    storage: '64 GB',
+    processor: 'Qualcomm',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
     id: 13,
     brand: "Realme",
     title: "realme P4x 5G (Matte Silver, 128 GB)",
-    rating: 4.3,
+    rating: 3.3,
     ratingCount: 7778,
+    ratingSlab: '3★ & above',
     assured: false,
-    discount: 8,
+    discount: 38,
     originalPrice: 17999,
     price: 16499,
     bankPrice: 15674,
@@ -302,7 +403,14 @@ export const smartphones = [
     relevanceScore: 76,
     popularityScore: 68,
     trendingScore: 73,
-    salesRank: 17
+    salesRank: 17,
+    network: '4G VOLTE',
+    ram: '6 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '6000 mAh'
   },
 
   {
@@ -311,9 +419,10 @@ export const smartphones = [
     title: "Samsung Galaxy F36 5G (Black, 256 GB)",
     rating: 4.4,
     ratingCount: 4922,
+    ratingSlab: '4★ & above',
     assured: true,
-    discount: 9,
-    originalPrice: 27499,
+    discount: 50,
+    originalPrice: 37499,
     price: 24999,
     bankPrice: 23749,
     exchangeOffer: null,
@@ -323,17 +432,25 @@ export const smartphones = [
     relevanceScore: 86,
     popularityScore: 66,
     trendingScore: 79,
-    salesRank: 15
+    salesRank: 15,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '256 GB',
+    processor: 'Snapdragon',
+    os: 'Android',
+    battery: '6000 mAh'
   },
 
   {
     id: 15,
     brand: "Tecno",
     title: "Tecno Spark Go 1 (Magic Skin Green, 64 GB)",
-    rating: 4.2,
+    rating: 3.2,
     ratingCount: 6731,
+    ratingSlab: '3★ & above',
     assured: false,
-    discount: 18,
+    discount: 28,
     originalPrice: 8999,
     price: 7299,
     bankPrice: 6934,
@@ -344,7 +461,14 @@ export const smartphones = [
     relevanceScore: 70,
     popularityScore: 67,
     trendingScore: 69,
-    salesRank: 19
+    salesRank: 19,
+    network: '4G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Below',
+    storage: '64 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -353,6 +477,7 @@ export const smartphones = [
     title: "vivo T4x 5G (Marine Blue, 128 GB)",
     rating: 4.4,
     ratingCount: 213339,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 13,
     originalPrice: 17999,
@@ -365,15 +490,23 @@ export const smartphones = [
     relevanceScore: 91,
     popularityScore: 95,
     trendingScore: 89,
-    salesRank: 6
+    salesRank: 6,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'Exynos',
+    os: 'Android',
+    battery: '6500 mAh'
   },
 
   {
     id: 17,
     brand: "Xiaomi",
     title: "Xiaomi 14 CIVI (Cruise Blue, 256 GB)",
-    rating: 4.5,
+    rating: 3.5,
     ratingCount: 1832,
+    ratingSlab: '3★ & above',
     assured: true,
     discount: 37,
     originalPrice: 54999,
@@ -386,7 +519,14 @@ export const smartphones = [
     relevanceScore: 89,
     popularityScore: 71,
     trendingScore: 84,
-    salesRank: 10
+    salesRank: 10,
+    network: '5G',
+    ram: '12 GB',
+    ramStatus: '4 GB and Above',
+    storage: '256 GB',
+    processor: 'Snapdragon',
+    os: 'Android',
+    battery: '4700 mAh'
   },
 
   {
@@ -395,6 +535,7 @@ export const smartphones = [
     title: "Apple iPhone 16 (Teal, 128 GB)",
     rating: 4.7,
     ratingCount: 210816,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 7,
     originalPrice: 69900,
@@ -407,15 +548,23 @@ export const smartphones = [
     relevanceScore: 97,
     popularityScore: 94,
     trendingScore: 95,
-    salesRank: 9
+    salesRank: 9,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'Apple',
+    os: 'iOS',
+    battery: '3500 mAh'
   },
 
   {
     id: 19,
     brand: "Samsung",
     title: "Samsung Galaxy F06 5G (Bahama Blue, 128 GB)",
-    rating: 4.3,
+    rating: 3.3,
     ratingCount: 41244,
+    ratingSlab: '3★ & above',
     assured: false,
     discount: 28,
     originalPrice: 13999,
@@ -428,7 +577,14 @@ export const smartphones = [
     relevanceScore: 82,
     popularityScore: 83,
     trendingScore: 81,
-    salesRank: 13
+    salesRank: 13,
+    network: '5G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Below',
+    storage: '32 GB',
+    processor: 'Exynos',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -437,6 +593,7 @@ export const smartphones = [
     title: "POCO M7 Pro 5G (Lunar Dust, 128 GB)",
     rating: 4.4,
     ratingCount: 38260,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 28,
     originalPrice: 18999,
@@ -449,7 +606,14 @@ export const smartphones = [
     relevanceScore: 87,
     popularityScore: 85,
     trendingScore: 83,
-    salesRank: 16
+    salesRank: 16,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5500 mAh'
   },
 
   {
@@ -458,6 +622,7 @@ export const smartphones = [
     title: "realme Narzo 80 Lite 5G (Onyx Black, 128 GB)",
     rating: 4.3,
     ratingCount: 7470,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 15,
     originalPrice: 14999,
@@ -470,7 +635,14 @@ export const smartphones = [
     relevanceScore: 74,
     popularityScore: 69,
     trendingScore: 72,
-    salesRank: 21
+    salesRank: 21,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -479,6 +651,7 @@ export const smartphones = [
     title: "Motorola g57 Power 5G (Pantone Regatta, 128 GB)",
     rating: 4.4,
     ratingCount: 19866,
+    ratingSlab: '4★ & above',
     assured: false,
     discount: 16,
     originalPrice: 17999,
@@ -491,7 +664,14 @@ export const smartphones = [
     relevanceScore: 83,
     popularityScore: 76,
     trendingScore: 80,
-    salesRank: 22
+    salesRank: 22,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -500,6 +680,7 @@ export const smartphones = [
     title: "vivo T4 Lite 5G (Prism Blue, 64 GB)",
     rating: 4.2,
     ratingCount: 46144,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 15,
     originalPrice: 12999,
@@ -512,7 +693,14 @@ export const smartphones = [
     relevanceScore: 75,
     popularityScore: 80,
     trendingScore: 77,
-    salesRank: 23
+    salesRank: 23,
+    network: '5G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Below',
+    storage: '64 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -521,6 +709,7 @@ export const smartphones = [
     title: "Google Pixel 9A (Porcelain, 256 GB)",
     rating: 4.6,
     ratingCount: 7608,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 20,
     originalPrice: 49999,
@@ -533,15 +722,23 @@ export const smartphones = [
     relevanceScore: 90,
     popularityScore: 70,
     trendingScore: 86,
-    salesRank: 24
+    salesRank: 24,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '256 GB',
+    processor: 'Snapdragon',
+    os: 'Android',
+    battery: '5200 mAh'
   },
 
   {
     id: 26,
-    brand: "CMF",
+    brand: "Nothing",
     title: "CMF by Nothing Phone 2 Pro (Black, 256 GB)",
     rating: 4.4,
     ratingCount: 75540,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 20,
     originalPrice: 24999,
@@ -554,7 +751,14 @@ export const smartphones = [
     relevanceScore: 86,
     popularityScore: 88,
     trendingScore: 84,
-    salesRank: 26
+    salesRank: 26,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '256 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -563,6 +767,7 @@ export const smartphones = [
     title: "Motorola g06 Power (Pantone Laurel Oak, 64 GB)",
     rating: 4.3,
     ratingCount: 7840,
+    ratingSlab: '4★ & above',
     assured: false,
     discount: 20,
     originalPrice: 9999,
@@ -575,7 +780,14 @@ export const smartphones = [
     relevanceScore: 71,
     popularityScore: 68,
     trendingScore: 70,
-    salesRank: 27
+    salesRank: 27,
+    network: '4G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Below',
+    storage: '64 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -584,6 +796,7 @@ export const smartphones = [
     title: "Motorola g06 Power (Pantone Tapestry, 64 GB)",
     rating: 4.3,
     ratingCount: 7840,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 20,
     originalPrice: 9999,
@@ -596,7 +809,14 @@ export const smartphones = [
     relevanceScore: 72,
     popularityScore: 68,
     trendingScore: 69,
-    salesRank: 28
+    salesRank: 28,
+    network: '4G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Below',
+    storage: '32 GB',
+    processor: 'Qualcomm',
+    os: 'Android',
+    battery: '4000 mAh'
   },
 
   {
@@ -605,6 +825,7 @@ export const smartphones = [
     title: "Motorola g05 (Forest Green, 64 GB)",
     rating: 4.3,
     ratingCount: 80516,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 27,
     originalPrice: 9999,
@@ -617,7 +838,14 @@ export const smartphones = [
     relevanceScore: 79,
     popularityScore: 83,
     trendingScore: 80,
-    salesRank: 29
+    salesRank: 29,
+    network: '4G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Below',
+    storage: '32 GB',
+    processor: 'Exynos',
+    os: 'Android',
+    battery: '4000 mAh'
   },
 
   {
@@ -626,6 +854,7 @@ export const smartphones = [
     title: "POCO M6 Plus 5G (Graphite Black, 128 GB)",
     rating: 4.3,
     ratingCount: 19219,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 30,
     originalPrice: 17999,
@@ -638,7 +867,14 @@ export const smartphones = [
     relevanceScore: 84,
     popularityScore: 77,
     trendingScore: 82,
-    salesRank: 30
+    salesRank: 30,
+    network: '5G',
+    ram: '6 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'Snapdragon',
+    os: 'Android',
+    battery: '5200 mAh'
   },
 
   {
@@ -647,6 +883,7 @@ export const smartphones = [
     title: "POCO C71 (Cool Blue, 128 GB)",
     rating: 4.2,
     ratingCount: 34424,
+    ratingSlab: '4★ & above',
     assured: false,
     discount: 12,
     originalPrice: 9999,
@@ -659,7 +896,14 @@ export const smartphones = [
     relevanceScore: 73,
     popularityScore: 78,
     trendingScore: 74,
-    salesRank: 31
+    salesRank: 31,
+    network: '4G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Below',
+    storage: '128 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -668,6 +912,7 @@ export const smartphones = [
     title: "POCO C75 5G (Enchanted Green, 128 GB)",
     rating: 4.3,
     ratingCount: 156248,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 17,
     originalPrice: 11499,
@@ -680,7 +925,14 @@ export const smartphones = [
     relevanceScore: 85,
     popularityScore: 91,
     trendingScore: 88,
-    salesRank: 32
+    salesRank: 32,
+    network: '5G',
+    ram: '6 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -689,6 +941,7 @@ export const smartphones = [
     title: "realme C61 (Marble Black, 64 GB)",
     rating: 4.2,
     ratingCount: 44921,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 19,
     originalPrice: 8999,
@@ -701,7 +954,14 @@ export const smartphones = [
     relevanceScore: 76,
     popularityScore: 79,
     trendingScore: 77,
-    salesRank: 33
+    salesRank: 33,
+    network: '4G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Below',
+    storage: '128 GB',
+    processor: 'Exynos',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -710,6 +970,7 @@ export const smartphones = [
     title: "realme C71 (Sea Blue, 128 GB)",
     rating: 4.2,
     ratingCount: 9265,
+    ratingSlab: '4★ & above',
     assured: false,
     discount: 11,
     originalPrice: 10999,
@@ -722,7 +983,14 @@ export const smartphones = [
     relevanceScore: 74,
     popularityScore: 70,
     trendingScore: 72,
-    salesRank: 34
+    salesRank: 34,
+    network: '4G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Below',
+    storage: '128 GB',
+  processor: 'Qualcomm',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -731,6 +999,7 @@ export const smartphones = [
     title: "REDMI 14C 5G (Starlight Blue, 128 GB)",
     rating: 4.3,
     ratingCount: 10291,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 20,
     originalPrice: 14999,
@@ -743,7 +1012,14 @@ export const smartphones = [
     relevanceScore: 80,
     popularityScore: 75,
     trendingScore: 78,
-    salesRank: 35
+    salesRank: 35,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5200 mAh'
   },
 
   {
@@ -752,6 +1028,7 @@ export const smartphones = [
     title: "REDMI Note 14 SE 5G (Titan Black, 128 GB)",
     rating: 4.4,
     ratingCount: 28427,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 30,
     originalPrice: 19999,
@@ -764,7 +1041,14 @@ export const smartphones = [
     relevanceScore: 87,
     popularityScore: 82,
     trendingScore: 85,
-    salesRank: 36
+    salesRank: 36,
+    network: '5G',
+    ram: '6 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -773,6 +1057,7 @@ export const smartphones = [
     title: "Samsung Galaxy F06 5G (Lit Violet, 64 GB)",
     rating: 4.3,
     ratingCount: 41244,
+    ratingSlab: '4★ & above',
     assured: false,
     discount: 28,
     originalPrice: 12499,
@@ -785,7 +1070,14 @@ export const smartphones = [
     relevanceScore: 81,
     popularityScore: 84,
     trendingScore: 82,
-    salesRank: 37
+    salesRank: 37,
+    network: '5G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Below',
+    storage: '64 GB',
+    processor: 'Exynos',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -794,6 +1086,7 @@ export const smartphones = [
     title: "Samsung Galaxy F06 5G (Bahama Blue, 128 GB)",
     rating: 4.3,
     ratingCount: 41244,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 28,
     originalPrice: 13999,
@@ -806,7 +1099,14 @@ export const smartphones = [
     relevanceScore: 82,
     popularityScore: 83,
     trendingScore: 81,
-    salesRank: 38
+    salesRank: 38,
+    network: '5G',
+    ram: '4 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'Exynos',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -815,6 +1115,7 @@ export const smartphones = [
     title: "Tecno Spark Go 1 (Startrail Black, 64 GB)",
     rating: 4.2,
     ratingCount: 6731,
+    ratingSlab: '4★ & above',
     assured: true,
     discount: 18,
     originalPrice: 8999,
@@ -827,7 +1128,14 @@ export const smartphones = [
     relevanceScore: 69,
     popularityScore: 67,
     trendingScore: 68,
-    salesRank: 39
+    salesRank: 39,
+    network: '4G',
+    ram: '3 GB',
+    ramStatus: '4 GB and Below',
+    storage: '32 GB',
+    processor: 'Qualcomm',
+    os: 'Android',
+    battery: '5000 mAh'
   },
 
   {
@@ -836,6 +1144,7 @@ export const smartphones = [
     title: "vivo T4R 5G (Twilight Blue, 128 GB)",
     rating: 4.4,
     ratingCount: 58695,
+    ratingSlab: '4★ & above',
     assured: false,
     discount: 10,
     originalPrice: 23499,
@@ -848,7 +1157,14 @@ export const smartphones = [
     relevanceScore: 88,
     popularityScore: 87,
     trendingScore: 86,
-    salesRank: 40
+    salesRank: 40,
+    network: '5G',
+    ram: '8 GB',
+    ramStatus: '4 GB and Above',
+    storage: '128 GB',
+    processor: 'MediaTek',
+    os: 'Android',
+    battery: '5000 mAh'
   }
 
 ];
